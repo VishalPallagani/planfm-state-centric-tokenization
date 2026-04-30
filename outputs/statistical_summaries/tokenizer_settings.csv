@@ -1,0 +1,8 @@
+﻿tokenizer,settings,dd_dim_range,ad_dim,pooled_representation
+WL,"WL color refinement, iterations=2",138-552,1164,Union block representation
+GraphBPE,"GraphBPE merges=100, vocab_size=1000",58-104,123,Shared pooled vocabulary
+Shortest path,"Shortest-path histograms, max_path_length=5",27-32,55,Shared pooled histogram
+SimHash,"Gaussian SimHash, hash_dim=128, seed=42",128-128,128,Shared pooled projection
+Random,"Deterministic random vectors, dim=128, seed=42",128-128,128,Shared pooled reference space
+
+

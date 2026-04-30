@@ -1,0 +1,8 @@
+﻿tokenizer,dd_min_dim,dd_max_dim,dd_mean_dim,ad_dim,ad_fit_strategy,ad_representation_type
+WL,138,552,291.0,1164,union,multi_domain_union
+GraphBPE,58,104,87.0,123,pooled,standard_tokenizer
+Shortest path,27,32,29.25,55,pooled,standard_tokenizer
+SimHash,128,128,128.0,128,pooled,standard_tokenizer
+Random,128,128,128.0,128,pooled,standard_tokenizer
+
+

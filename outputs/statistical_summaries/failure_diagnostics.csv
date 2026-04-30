@@ -1,0 +1,30 @@
+domain,tokenizer,failure_mode,count,total,rate
+blocks,graphbpe,Budget-limited unsolved,58,60,0.9666666666666667
+blocks,graphbpe,Unsolved before cap,2,60,0.03333333333333333
+blocks,random,Budget-limited unsolved,60,60,1.0
+blocks,shortest_path,Budget-limited unsolved,21,60,0.35
+blocks,shortest_path,Unsolved before cap,39,60,0.65
+blocks,simhash,Budget-limited unsolved,51,60,0.85
+blocks,simhash,Unsolved before cap,9,60,0.15
+blocks,wl,Budget-limited unsolved,18,60,0.3
+blocks,wl,Solved,42,60,0.7
+gripper,graphbpe,Solved,48,48,1.0
+gripper,random,Budget-limited unsolved,48,48,1.0
+gripper,shortest_path,Budget-limited unsolved,48,48,1.0
+gripper,simhash,Budget-limited unsolved,9,48,0.1875
+gripper,simhash,Solved,39,48,0.8125
+gripper,wl,Solved,48,48,1.0
+logistics,graphbpe,Budget-limited unsolved,54,54,1.0
+logistics,random,Budget-limited unsolved,54,54,1.0
+logistics,shortest_path,Budget-limited unsolved,54,54,1.0
+logistics,simhash,Budget-limited unsolved,54,54,1.0
+logistics,wl,Budget-limited unsolved,54,54,1.0
+visitall-from-everywhere,graphbpe,Budget-limited unsolved,318,657,0.4840182648401826
+visitall-from-everywhere,graphbpe,Solved,63,657,0.0958904109589041
+visitall-from-everywhere,graphbpe,Unsolved before cap,276,657,0.4200913242009132
+visitall-from-everywhere,random,Solved,657,657,1.0
+visitall-from-everywhere,shortest_path,Solved,657,657,1.0
+visitall-from-everywhere,simhash,Budget-limited unsolved,342,657,0.5205479452054794
+visitall-from-everywhere,simhash,Solved,78,657,0.1187214611872146
+visitall-from-everywhere,simhash,Unsolved before cap,237,657,0.3607305936073059
+visitall-from-everywhere,wl,Solved,657,657,1.0

@@ -1,0 +1,44 @@
+# Python/runtime noise
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.envrc
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large files created by fresh experiment runs.
+# The repository intentionally keeps compact result summaries under
+# outputs/{analysis,statistical_summaries,baselines}.
+outputs/all_domains/
+outputs/domain_dependent/
+outputs/logs/
+outputs/repro/
+outputs/tmp/
+outputs/checkpoints/
+outputs/data/encodings/
+outputs/*/all_domains/
+outputs/*/domain_dependent/
+outputs/*/logs/
+outputs/*/repro/
+outputs/*/tmp/
+outputs/*/checkpoints/
+outputs/*/data/encodings/
+
+# External validator builds should be installed locally, not committed.
+VAL/

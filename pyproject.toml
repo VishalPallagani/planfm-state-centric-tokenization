@@ -1,0 +1,32 @@
+[project]
+name = "state-centric-tokenization"
+version = "0.1.0"
+description = "Code for state-centric tokenization in learned transition-model planning"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "numpy>=2.2.6",
+    "pandas>=2.2.0",
+    "pddl>=0.4.1",
+    "pddlpy>=0.4.4",
+    "pyperplan>=2.1",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.15.3",
+    "statsmodels>=0.14.0",
+    "torch>=2.9.1",
+    "tqdm>=4.67.1",
+    "wlplan>=2.1.0",
+    "xgboost>=3.1.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.14.6",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+

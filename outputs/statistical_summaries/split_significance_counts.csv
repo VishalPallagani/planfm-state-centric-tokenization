@@ -1,0 +1,9 @@
+family,test-extrapolation,test-interpolation,family_label
+all_domains::lstm::delta,8,5,AD / LSTM-D
+all_domains::lstm::state,10,5,AD / LSTM-S
+all_domains::xgboost::delta,10,4,AD / XGB-D
+all_domains::xgboost::state,8,2,AD / XGB-S
+domain_dependent::lstm::delta,9,6,DD / LSTM-D
+domain_dependent::lstm::state,10,5,DD / LSTM-S
+domain_dependent::xgboost::delta,8,2,DD / XGB-D
+domain_dependent::xgboost::state,9,2,DD / XGB-S

@@ -1,0 +1,17 @@
+baseline,domain,split,num_problems,solved_rate,timeout_rate,mean_plan_len_solved,mean_nodes_expanded_solved,mean_search_time_solved
+astar:lmcut,blocks,test-extrapolation,20,0.1,0.9,27,485.5,5.1
+astar:lmcut,blocks,test-interpolation,3,1.0,0.0,12.666666666666666,26.333333333333332,0.07633333333333334
+astar:lmcut,gripper,test-extrapolation,16,0.0,1.0,,,
+astar:lmcut,gripper,test-interpolation,3,1.0,0.0,15,1728.3333333333333,1.154
+astar:lmcut,logistics,test-extrapolation,18,0.0,1.0,,,
+astar:lmcut,logistics,test-interpolation,9,1.0,0.0,12.666666666666666,71.11111111111111,0.5582222222222222
+astar:lmcut,visitall-from-everywhere,test-extrapolation,219,0.0273972602739726,0.9726027397260274,21,1108.8333333333333,5.916666666666667
+astar:lmcut,visitall-from-everywhere,test-interpolation,37,1.0,0.0,7.783783783783784,95.45945945945945,0.23402702702702702
+gbf:hff,blocks,test-extrapolation,20,0.75,0.25,67.33333333333333,845.4,2.37
+gbf:hff,blocks,test-interpolation,3,1.0,0.0,16.666666666666668,33,0.026
+gbf:hff,gripper,test-extrapolation,16,0.625,0.375,81,552,3.298
+gbf:hff,gripper,test-interpolation,3,1.0,0.0,17,41.666666666666664,0.036333333333333336
+gbf:hff,logistics,test-extrapolation,18,1.0,0.0,55.166666666666664,86.61111111111111,2.347777777777778
+gbf:hff,logistics,test-interpolation,9,1.0,0.0,12.666666666666666,15.333333333333334,0.012222222222222223
+gbf:hff,visitall-from-everywhere,test-extrapolation,219,0.726027397260274,0.273972602739726,91.44654088050315,997.7798742138365,1.3570314465408806
+gbf:hff,visitall-from-everywhere,test-interpolation,37,1.0,0.0,9.594594594594595,14.432432432432432,0.004675675675675676

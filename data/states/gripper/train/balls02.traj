@@ -1,0 +1,6 @@
+(at ball1 rooma) (at ball2 rooma) (at-robby rooma) (ball ball1) (ball ball2) (free left) (free right) (gripper left) (gripper right) (room rooma) (room roomb)
+(at ball2 rooma) (at-robby rooma) (ball ball1) (ball ball2) (carry ball1 left) (free right) (gripper left) (gripper right) (room rooma) (room roomb)
+(at-robby rooma) (ball ball1) (ball ball2) (carry ball1 left) (carry ball2 right) (gripper left) (gripper right) (room rooma) (room roomb)
+(at-robby roomb) (ball ball1) (ball ball2) (carry ball1 left) (carry ball2 right) (gripper left) (gripper right) (room rooma) (room roomb)
+(at ball1 roomb) (at-robby roomb) (ball ball1) (ball ball2) (carry ball2 right) (free left) (gripper left) (gripper right) (room rooma) (room roomb)
+(at ball1 roomb) (at ball2 roomb) (at-robby roomb) (ball ball1) (ball ball2) (free left) (free right) (gripper left) (gripper right) (room rooma) (room roomb)

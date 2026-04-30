@@ -1,0 +1,7 @@
+(clear a) (clear b) (clear c) (clear d) (handempty) (ontable a) (ontable b) (ontable c) (ontable d)
+(clear a) (clear c) (clear d) (holding b) (ontable a) (ontable c) (ontable d)
+(clear b) (clear c) (clear d) (handempty) (on b a) (ontable a) (ontable c) (ontable d)
+(clear b) (clear d) (holding c) (on b a) (ontable a) (ontable d)
+(clear c) (clear d) (handempty) (on b a) (on c b) (ontable a) (ontable d)
+(clear c) (holding d) (on b a) (on c b) (ontable a)
+(clear d) (handempty) (on b a) (on c b) (on d c) (ontable a)

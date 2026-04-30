@@ -1,0 +1,22 @@
+(define (problem grid-1-3-start-0-2)
+  (:domain grid-visit-all)
+  (:objects loc-x0-y0 loc-x0-y1 loc-x0-y2)
+  (:init
+    (at-robot loc-x0-y2)
+    (visited loc-x0-y2)
+    (connected loc-x0-y0 loc-x0-y1)
+    (connected loc-x0-y1 loc-x0-y0)
+    (connected loc-x0-y1 loc-x0-y2)
+    (connected loc-x0-y2 loc-x0-y1)
+    (place loc-x0-y0)
+    (place loc-x0-y1)
+    (place loc-x0-y2)
+  )
+  (:goal
+    (and
+      (visited loc-x0-y0)
+      (visited loc-x0-y1)
+      (visited loc-x0-y2)
+    )
+  )
+)

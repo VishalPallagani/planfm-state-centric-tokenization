@@ -1,0 +1,25 @@
+method,domain,split,solved_rate
+DD / WL / XGB-D,blocks,test-extrapolation,0.6999999999999998
+DD / WL / XGB-D,blocks,test-interpolation,1.0
+DD / WL / XGB-D,gripper,test-extrapolation,1.0
+DD / WL / XGB-D,gripper,test-interpolation,1.0
+DD / WL / XGB-D,logistics,test-extrapolation,0.0
+DD / WL / XGB-D,logistics,test-interpolation,0.2222222222222222
+DD / WL / XGB-D,visitall-from-everywhere,test-extrapolation,1.0
+DD / WL / XGB-D,visitall-from-everywhere,test-interpolation,1.0
+A* / LM-Cut,blocks,test-extrapolation,0.1
+A* / LM-Cut,blocks,test-interpolation,1.0
+A* / LM-Cut,gripper,test-extrapolation,0.0
+A* / LM-Cut,gripper,test-interpolation,1.0
+A* / LM-Cut,logistics,test-extrapolation,0.0
+A* / LM-Cut,logistics,test-interpolation,1.0
+A* / LM-Cut,visitall-from-everywhere,test-extrapolation,0.0273972602739726
+A* / LM-Cut,visitall-from-everywhere,test-interpolation,1.0
+GBF / hFF,blocks,test-extrapolation,0.75
+GBF / hFF,blocks,test-interpolation,1.0
+GBF / hFF,gripper,test-extrapolation,0.625
+GBF / hFF,gripper,test-interpolation,1.0
+GBF / hFF,logistics,test-extrapolation,1.0
+GBF / hFF,logistics,test-interpolation,1.0
+GBF / hFF,visitall-from-everywhere,test-extrapolation,0.726027397260274
+GBF / hFF,visitall-from-everywhere,test-interpolation,1.0

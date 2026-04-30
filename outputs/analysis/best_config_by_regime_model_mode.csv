@@ -1,0 +1,9 @@
+regime,model,mode,tokenizer,num_seeds,weighted_solved_rate_mean,weighted_solved_rate_std,weighted_exec_rate_mean,weighted_exec_rate_std
+all_domains,lstm,delta,wl,3,0.8044692737430168,0.025702371958737934,1.0,0.0
+all_domains,lstm,state,shortest_path,3,0.7951582867783985,0.0013167724044441818,1.0,0.0
+all_domains,xgboost,delta,wl,3,0.8379888268156425,0.0,1.0,0.0
+all_domains,xgboost,state,shortest_path,3,0.8072625698324022,0.0,1.0,0.0
+domain_dependent,lstm,delta,shortest_path,3,0.8026070763500931,0.00800961384268399,1.0,0.0
+domain_dependent,lstm,state,shortest_path,3,0.7942271880819367,0.0013167724044441818,1.0,0.0
+domain_dependent,xgboost,delta,wl,3,0.8994413407821229,0.0,1.0,0.0
+domain_dependent,xgboost,state,shortest_path,3,0.7681564245810056,0.0,1.0,0.0

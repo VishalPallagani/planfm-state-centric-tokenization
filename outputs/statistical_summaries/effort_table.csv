@@ -1,0 +1,9 @@
+domain,split,solved_rate,cap_rate,budget_use,solved_plan_len
+blocks,test-interpolation,1.0,0.0,0.12666666666666665,12.666666666666666
+blocks,test-extrapolation,0.7,0.3,0.5717367069205305,49.0
+gripper,test-interpolation,1.0,0.0,0.2787878787878788,29.0
+gripper,test-extrapolation,1.0,0.0,0.3750311231949754,117.0
+logistics,test-interpolation,0.2222222222222222,0.7777777777777778,0.8965811965811966,76.5
+logistics,test-extrapolation,0.0,1.0,1.0,
+visitall-from-everywhere,test-interpolation,1.0,0.0,0.07837837837837837,8.783783783783784
+visitall-from-everywhere,test-extrapolation,1.0,0.0,0.11390596553147453,61.21917808219178

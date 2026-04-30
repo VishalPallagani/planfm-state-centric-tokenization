@@ -1,0 +1,148 @@
+{
+  "domain_dependent": {
+    "wl": {
+      "blocks": {
+        "embedding_dim": 172,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\blocks_wl_tok.json"
+      },
+      "gripper": {
+        "embedding_dim": 302,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\gripper_wl_tok.json"
+      },
+      "logistics": {
+        "embedding_dim": 552,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\logistics_wl_tok.json"
+      },
+      "visitall-from-everywhere": {
+        "embedding_dim": 138,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\visitall-from-everywhere_wl_tok.json"
+      }
+    },
+    "simhash": {
+      "blocks": {
+        "embedding_dim": 128,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\blocks_simhash.json"
+      },
+      "gripper": {
+        "embedding_dim": 128,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\gripper_simhash.json"
+      },
+      "logistics": {
+        "embedding_dim": 128,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\logistics_simhash.json"
+      },
+      "visitall-from-everywhere": {
+        "embedding_dim": 128,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\visitall-from-everywhere_simhash.json"
+      }
+    },
+    "shortest_path": {
+      "blocks": {
+        "embedding_dim": 30,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\blocks_shortest_path.json"
+      },
+      "gripper": {
+        "embedding_dim": 28,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\gripper_shortest_path.json"
+      },
+      "logistics": {
+        "embedding_dim": 32,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\logistics_shortest_path.json"
+      },
+      "visitall-from-everywhere": {
+        "embedding_dim": 27,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\visitall-from-everywhere_shortest_path.json"
+      }
+    },
+    "graphbpe": {
+      "blocks": {
+        "embedding_dim": 84,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\blocks_graphbpe.json"
+      },
+      "gripper": {
+        "embedding_dim": 58,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\gripper_graphbpe.json"
+      },
+      "logistics": {
+        "embedding_dim": 102,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\logistics_graphbpe.json"
+      },
+      "visitall-from-everywhere": {
+        "embedding_dim": 104,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\visitall-from-everywhere_graphbpe.json"
+      }
+    },
+    "random": {
+      "blocks": {
+        "embedding_dim": 128,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\blocks_random.json"
+      },
+      "gripper": {
+        "embedding_dim": 128,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\gripper_random.json"
+      },
+      "logistics": {
+        "embedding_dim": 128,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\logistics_random.json"
+      },
+      "visitall-from-everywhere": {
+        "embedding_dim": 128,
+        "fit_strategy": "domain_specific",
+        "vocab_path": "outputs\\tokenizer_study_full\\domain_dependent\\data\\encodings\\models\\visitall-from-everywhere_random.json"
+      }
+    }
+  },
+  "all_domains": {
+    "wl": {
+      "embedding_dim": 1164,
+      "fit_strategy": "union",
+      "manifest_path": "outputs\\tokenizer_study_full\\all_domains\\tokenizers\\wl\\all_domains_wl.json",
+      "representation_type": "multi_domain_union"
+    },
+    "simhash": {
+      "embedding_dim": 128,
+      "fit_strategy": "pooled",
+      "manifest_path": "outputs\\tokenizer_study_full\\all_domains\\tokenizers\\simhash\\all_domains_simhash.json",
+      "representation_type": "standard_tokenizer"
+    },
+    "shortest_path": {
+      "embedding_dim": 55,
+      "fit_strategy": "pooled",
+      "manifest_path": "outputs\\tokenizer_study_full\\all_domains\\tokenizers\\shortest_path\\all_domains_shortest_path.json",
+      "representation_type": "standard_tokenizer"
+    },
+    "graphbpe": {
+      "embedding_dim": 123,
+      "fit_strategy": "pooled",
+      "manifest_path": "outputs\\tokenizer_study_full\\all_domains\\tokenizers\\graphbpe\\all_domains_graphbpe.json",
+      "representation_type": "standard_tokenizer"
+    },
+    "random": {
+      "embedding_dim": 128,
+      "fit_strategy": "pooled",
+      "manifest_path": "outputs\\tokenizer_study_full\\all_domains\\tokenizers\\random\\all_domains_random.json",
+      "representation_type": "standard_tokenizer"
+    }
+  }
+}
+
+
